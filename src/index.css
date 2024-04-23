@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace
+}
+
+body {
+  background-image: url(./assets/randomNumbg.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #FBFF00;
+  font-size: 70px;
+}
+
+.container {
+  background-color: rgba(32, 205, 233, 0.8);
+  width: 400px;
+  height: 440px;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-container {
+  font-size: 50px;
+}
+
+.inputs-div {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  font-size: 35px;
+}
+
+.input {
+  font-size: 35px;
+  width: 150px;
+  background-color: black;
+  outline: none;
+  outline-width: 0px;
+  color: #FBFF00;
+}
+
+.randomNum-Div {
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: #FBFF00;
+}
+
+.btn {
+  font-size: 40px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: black;
+  color: #FBFF00;
+}
+
+.btn:hover {
+  color: black;
+  background-color: #FBFF00;
+}
+
+.btn:active {
+  color: #11BAD2;
+}
